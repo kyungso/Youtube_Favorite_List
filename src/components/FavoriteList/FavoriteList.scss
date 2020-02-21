@@ -1,0 +1,34 @@
+.favoriteList__container {
+    position: relative;
+    top: 80px;
+
+    .favoriteList__title {
+        padding: 0px 30px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .btn {
+        width: 190px;
+        color: #011993;
+        font-size: 23px;
+        line-height: 47px;
+        background-color: transparent;
+        border-width: 0px;
+        border-style: none;
+        border-color: transparent;
+        border-radius: 40px;
+        outline: none 0px;
+        cursor: pointer;
+        transition: background-color 0.1s linear opacity 0.1s linear;
+        box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.3);
+        margin: 16px 0px 0px;
+    }
+
+    .favoriteList {
+        margin: 25px 15px 25px 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 320px);
+        grid-gap: 100px 25px;
+    }
+}

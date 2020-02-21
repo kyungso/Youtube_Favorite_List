@@ -1,0 +1,14 @@
+.videoList__container {
+    position: relative;
+    top: 65px;
+    .videoListName {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .Listsection__container {
+        margin: 25px 15px 25px 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 320px);
+        grid-gap: 25px;
+    }
+}

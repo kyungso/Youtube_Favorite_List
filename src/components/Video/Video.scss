@@ -1,0 +1,24 @@
+.video__container {
+    .thumbnail img {
+        display: block;
+        width: 320px;
+        height: 180px;
+        object-fit: cover;
+    }
+    .thumbnail__detail {
+        display: flex;
+        flex-direction: row;
+        .thumbnail__title {
+            padding-top: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            color: black;
+            word-break: break-all;
+            white-space: pre-line;
+        }
+        .fa-plus-square {
+            margin-left: auto;
+            padding: 10px;
+        }
+    }
+}
