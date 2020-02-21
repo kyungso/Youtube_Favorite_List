@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Youtube_Favorite_List/static/css/main.1f70fc6b.chunk.css",
-    "main.js": "/Youtube_Favorite_List/static/js/main.c3efc810.chunk.js",
-    "main.js.map": "/Youtube_Favorite_List/static/js/main.c3efc810.chunk.js.map",
+    "main.css": "/Youtube_Favorite_List/static/css/main.ea197a49.chunk.css",
+    "main.js": "/Youtube_Favorite_List/static/js/main.06fcc6d9.chunk.js",
+    "main.js.map": "/Youtube_Favorite_List/static/js/main.06fcc6d9.chunk.js.map",
     "runtime-main.js": "/Youtube_Favorite_List/static/js/runtime-main.154e42e3.js",
     "runtime-main.js.map": "/Youtube_Favorite_List/static/js/runtime-main.154e42e3.js.map",
     "static/css/2.dc646829.chunk.css": "/Youtube_Favorite_List/static/css/2.dc646829.chunk.css",
-    "static/js/2.19ee3311.chunk.js": "/Youtube_Favorite_List/static/js/2.19ee3311.chunk.js",
-    "static/js/2.19ee3311.chunk.js.map": "/Youtube_Favorite_List/static/js/2.19ee3311.chunk.js.map",
+    "static/js/2.1b972914.chunk.js": "/Youtube_Favorite_List/static/js/2.1b972914.chunk.js",
+    "static/js/2.1b972914.chunk.js.map": "/Youtube_Favorite_List/static/js/2.1b972914.chunk.js.map",
     "index.html": "/Youtube_Favorite_List/index.html",
-    "precache-manifest.df7e24848eca401026a12f2d2425ec1e.js": "/Youtube_Favorite_List/precache-manifest.df7e24848eca401026a12f2d2425ec1e.js",
+    "precache-manifest.b549f6dc7f0ed144284a4a02199f4da6.js": "/Youtube_Favorite_List/precache-manifest.b549f6dc7f0ed144284a4a02199f4da6.js",
     "service-worker.js": "/Youtube_Favorite_List/service-worker.js",
     "static/css/2.dc646829.chunk.css.map": "/Youtube_Favorite_List/static/css/2.dc646829.chunk.css.map",
-    "static/css/main.1f70fc6b.chunk.css.map": "/Youtube_Favorite_List/static/css/main.1f70fc6b.chunk.css.map",
-    "static/js/2.19ee3311.chunk.js.LICENSE.txt": "/Youtube_Favorite_List/static/js/2.19ee3311.chunk.js.LICENSE.txt"
+    "static/css/main.ea197a49.chunk.css.map": "/Youtube_Favorite_List/static/css/main.ea197a49.chunk.css.map",
+    "static/js/2.1b972914.chunk.js.LICENSE.txt": "/Youtube_Favorite_List/static/js/2.1b972914.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.154e42e3.js",
     "static/css/2.dc646829.chunk.css",
-    "static/js/2.19ee3311.chunk.js",
-    "static/css/main.1f70fc6b.chunk.css",
-    "static/js/main.c3efc810.chunk.js"
+    "static/js/2.1b972914.chunk.js",
+    "static/css/main.ea197a49.chunk.css",
+    "static/js/main.06fcc6d9.chunk.js"
   ]
 }
