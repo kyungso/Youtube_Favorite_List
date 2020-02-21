@@ -14,8 +14,8 @@ const FavoriteList = () => {
     <div className="favoriteList__container">
       <span className="favoriteList__title">나의 목록</span>
       <span>
-        <button className="btn" onClick={openModal}>
-          <i className="fa fa-plus-circle" style={{ fontSize: `24px`}}>&nbsp;새로 만들기</i>
+        <button className="createBtn" onClick={openModal}>
+          <i className="fa fa-plus-circle" style={{ fontSize: `20px`}}>&nbsp;새로 만들기</i>
         </button>
       </span>
       <div className="favoriteList">
