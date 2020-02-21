@@ -30,7 +30,8 @@ const useModal = (video) => {
           if(!isDuplicate && list[index]['video'].length < 20) {
             list[index]['video'].push(video);
           } else {
-            toastMessage ='최대 갯수 20개 초과하여 저장불가';
+            isDuplicate ? toastMessage ='이미 포함하고 있습니다.'
+            : toastMessage ='최대 갯수 20개 초과하여 저장불가';
           }
 
         } else { // 비디오가 없는 경우

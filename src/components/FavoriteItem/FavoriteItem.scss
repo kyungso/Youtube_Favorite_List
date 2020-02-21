@@ -1,8 +1,9 @@
 .favoriteItem__container {
     position: relative;
     height: 180px;
-    .favoriteItem__wrapper {
-        width: 100%;
-        height: 100%;
+    .itemLink img {
+        width: 320px;
+        height: 180px;
+        object-fit: cover;
     }
 }

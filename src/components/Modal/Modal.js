@@ -1,12 +1,15 @@
 import React, { useRef, useEffect, useState } from 'react';
 
 import './Modal.scss';
+import toast from 'toasted-notes';
+import '../../../node_modules/toasted-notes/src/styles.css';
 
 const Modal = ({ isOpen, close, handleChecked, isHome, video }) => {
   const [listName, setListName] = useState('');
   const [listDetail, setListDetail] = useState([]);
   const [isCreateList, setIsCreateList] = useState(false);
   const nameRef = useRef(null);
+  var toastMessage = '목록에 추가되었습니다.';
 
   useEffect(() => {
     if(isCreateList) {
@@ -39,11 +42,17 @@ const Modal = ({ isOpen, close, handleChecked, isHome, video }) => {
     if(listName !== "") {
       if(isHome) {
         var addlist = [...listDetail, {"listName": listName, "video": [video]}];
+        toastMessage = '목록에 추가되었습니다';
       } else {
         addlist = [...listDetail, {"listName": listName, "video": []}];
+        toastMessage = '목록이 생성되었습니다.';
       }
       localStorage.setItem("list", JSON.stringify(addlist));
       close();
+      toast.notify(toastMessage, { 
+        position: 'bottom-left',
+        duration: 2000 
+      });
     }
   };
   
